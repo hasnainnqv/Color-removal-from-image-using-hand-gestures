@@ -21,10 +21,9 @@ LH = 0
 UV= 0
 UH=0
 
-background = cv2.imread('F:\\PycharmProjects\\vs_code_projects\\project1\\ela_modified.jpg')
 
 while True:
-    background = cv2.imread('F:\\PycharmProjects\\vs_code_projects\\project1\\ela_modified.jpg')
+    background = cv2.imread('ela_modified.jpg')
 
     success, img = cap.read()
     # img = image
